@@ -1,10 +1,10 @@
-<?php namespace JingKe\Wxpay\JsApi;
+<?php namespace Wxpay\JsApi;
 
 use Illuminate\Support\Facades\URL;
 use Illuminate\Support\Facades\View;
-use JingKe\Wxpay\lib\Common;
-use JingKe\Wxpay\lib\UnifiedOrder;
-use JingKe\Wxpay\lib\Notify;
+use Wxpay\lib\Common;
+use Wxpay\lib\UnifiedOrder;
+use Wxpay\lib\Notify;
 use Session;
 class JsApi
 {

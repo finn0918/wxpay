@@ -5,8 +5,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "JingKe Wu",
-            "email": "Laow3721@vip.qq.com"
+            "name": "finn0918",
+            "email": "huanghuafeng0918@gmail.com"
         }
     ],
     "require": {
@@ -14,8 +14,8 @@
         "illuminate/support": "5.1.*"
     },
     "autoload": {
-        "psr-0": {
-            "JingKe\\Wxpay": "src/"
+        "psr-4": {
+            "Wxpay\\": "src/Wxpay"
         }
     },
     "minimum-stability": "stable"

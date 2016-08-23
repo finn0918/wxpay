@@ -1,4 +1,4 @@
-<?php namespace JingKe\Wxpay;
+<?php namespace Wxpay;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\View;

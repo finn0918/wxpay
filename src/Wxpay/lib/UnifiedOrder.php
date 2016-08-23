@@ -1,10 +1,13 @@
-<?php namespace JingKe\Wxpay\lib;
+<?php namespace Wxpay\lib;
 
 use Illuminate\Exception;
 
 trait UnifiedOrder
 {
 
+    /**
+     * 这是统一下单入口
+     */
 
     public $response;//微信返回的响应
     public $result;//返回参数，类型为关联数组
