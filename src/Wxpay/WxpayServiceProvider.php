@@ -20,7 +20,7 @@ class WxpayServiceProvider extends ServiceProvider
     */
     public function boot()
     {
-        $configPath = __DIR__ . '/../../config/wxpay.php';
+        $configPath = __DIR__ . '/../config/wxpay.php';
         $this->publishes([$configPath => config_path('wxpay.php')], 'config');
     }
 

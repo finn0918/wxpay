@@ -18,6 +18,9 @@ class Wxpay
             case 'jsApi':
                 return new JsApi($this->config);
                 break;
+            case 'refund':
+                return new Refund($this->config);
+                break;
             default:
                 return false;
                 break;

@@ -165,7 +165,7 @@ class JsApi
             dd($data);
         }
         */
-        $this->openid = Session::get('wechat_openid')->openid;
+        $this->openid = $this->wxpay_config['openid'];
 
 
         return $this;
