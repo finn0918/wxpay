@@ -1,6 +1,7 @@
 <?php namespace Wxpay;
 
 use Wxpay\JsApi\JsApi;
+use Wxpay\Refund\Refund;
 
 class Wxpay
 {
