@@ -23,7 +23,7 @@ trait Notify
 
         $sign = $this->getSign($tmpData);//本地签名
         if ($this->data['sign'] == $sign) {
-            return true;
+            return $tmpData;
         }
         return false;
     }

@@ -60,7 +60,7 @@ class JsApi
         if ($this->wxpay_config['log']) {
             $data = json_encode($this->getData());
 
-            \Log::info("===============WeiXin pay notify result==============:$notify. Data:$data");
+            \Log::info("===============WeiXin pay notify result==============Data:$data");
         }
 
         return $notify;
